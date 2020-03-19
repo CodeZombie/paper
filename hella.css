@@ -1,9 +1,14 @@
 .grid {
 	width:100%;
 	padding: 0 32px;
-	max-width:960px;
+	max-width:1024px;
 	margin: 0 auto;
 	box-sizing: border-box;
+}
+.row {
+	display: flex;
+	flex-flow: row;
+	height:100%;
 }
 .row:after, .grid:after{
 	clear:both;
@@ -11,6 +16,9 @@
 	display:table;
 }
 .column{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 	width:100%;
 	float:left;
 	box-sizing:border-box;
@@ -60,6 +68,9 @@
 	}
 	.large-only {
 		display:none;
+	}
+	.row{
+		display:block;
 	}
 }
 @media (min-width: 640px){
