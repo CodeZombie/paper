@@ -8,7 +8,6 @@
 .row {
 	display: flex;
 	flex-flow: row;
-	height:100%;
 }
 .row:after, .grid:after{
 	clear:both;
