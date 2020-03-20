@@ -32,25 +32,23 @@ h4 { font-size: 3.5rem; }
 h5 { font-size: 3rem; }
 h6 { font-size: 2.5rem; }
 
-
-.paper-sheet, .paper-image, .button {
+.paper-sheet, .paper-image, .button, hr {
     border-style: solid;
     border-width: 4px;
     border-color: #000;
     position: relative;
+    margin-bottom:16px;
 }
 
 .paper-image {
     display:block;
     width:100%;
-    margin-bottom:16px;
     height:100%;
 }
 
 .paper-sheet {
     padding:1.5rem;
     background: #fff;
-    margin-bottom:16px;
     height:100%;
 }
 
