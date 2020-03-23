@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, pre code, ul, button, .button{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
@@ -37,7 +37,7 @@ h6 { font-size: 2.5rem; }
     border-width: 4px;
     border-color: #000;
     position: relative;
-    margin-bottom:16px;
+    margin-bottom:1.5rem;
 }
 
 .paper-image {
@@ -47,7 +47,7 @@ h6 { font-size: 2.5rem; }
 }
 
 .paper-sheet {
-    padding:1.5rem;
+    padding:1.5rem 1.5rem 0;
     background: #fff;
     height:100%;
 }
@@ -89,4 +89,16 @@ hr {
     border-width: 1px;
     border-style: solid;
     border-color:#000;
+}
+
+code {
+    padding:1rem;
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    border-color:#000;
+}
+
+.align-right {
+    text-align: right;
 }
