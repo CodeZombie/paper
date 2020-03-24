@@ -1,4 +1,4 @@
 # paper
-High contrast monochromatic css web theme based on Hella
+High contrast, responsive, newspaper-themed monochromatic css stylesheet based on [hella](https://github.com/CodeZombie/hella)
 
-![Paper Screenshot](https://i.imgur.com/udi5WeT.png "Screenshot of Paper")
+![Paper Screenshot](https://i.imgur.com/bWsc1mg.png "Screenshot of Paper")
